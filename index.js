@@ -28,5 +28,5 @@ console.log('HTTP server listening');
 });
 
 httpServer.listen({
-port: 7161,
+port: 80, // if you are using sillydev make sure that this port is the port of your sillydev sever
 });
