@@ -33,10 +33,10 @@
 		"dist",
 		"bin.js"
 	],
-	"scripts": {
-		"build": "tsc",
-		"dev": "tsc --watch"
-	},
+	{
+  "scripts": {
+    "start": "npm i @tomphttp/bare-server-node@2.0.3 && node index.js --port=80"
+  }
 	"dependencies": {
 		"async-exit-hook": "^2.0.1",
 		"commander": "^10.0.1",
